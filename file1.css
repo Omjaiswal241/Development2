@@ -1,0 +1,14 @@
+.box1
+{
+    padding: 50px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px black;
+}
+nav ul li
+{
+    list-style: none;
+    background-color:blanchedalmond;
+    list-style-position: inside;
+    border: 2px solid green;
+    display: flex;
+}

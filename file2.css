@@ -1,0 +1,10 @@
+p
+{
+    height: 120px;
+    width:60vw;
+    border:2px solid beige;
+    overflow: scroll auto ;
+    white-space : wrap;
+    text-overflow : ellipsis;
+    
+}
