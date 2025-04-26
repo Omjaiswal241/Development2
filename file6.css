@@ -1,0 +1,36 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.boxes
+{
+    background-color: pink;
+}
+.box
+{
+    border: 1px solid black;
+}
+.boxes::first-line
+{
+    color: orange;
+}
+::selection
+{
+    background-color: black;
+    color: aqua;
+}
+.boxes::before
+{
+    content:  "how did you start without";
+    color:purple;
+}
+.box:nth-child(1)
+{
+    background-color:green;
+}
+.boxes::after{
+    content:"lets call it a day";
+    color: blue;
+}

@@ -1,0 +1,37 @@
+.container
+{
+    border: 2px solid green;
+    display: grid;
+    height: 300px;
+    grid-template-areas: "nav nav nav""side main main"
+    "footer footer footer";
+}
+.items
+{
+    height: 55 px;
+    border: 2px solid red;
+}
+.item1
+{
+    grid-area: nav;
+    background-color: blue;
+}
+.item2
+{
+    grid-area:side;
+    background-color: brown;
+}
+.item3
+{
+    grid-area:main;
+}
+.item4
+{
+    grid-area:footer;
+    background-color: green;
+}
+.item5
+{
+    grid-area:nav;
+    background-color: aqua;
+}

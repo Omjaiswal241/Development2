@@ -1,0 +1,33 @@
+.container{
+    height: 50vh;
+    width: 50vw;
+    border: 1px soild black;
+    background-color: orange;
+}
+.box
+{
+    height: 5vh;
+    width: 5vw;
+    border: 1px soild black;
+    background-color: aqua;
+    animation:om 3s ease-in-out 1s 2 alternate-reverse ;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.54, 0.01, 0, 1);
+    transition-delay: 1s; */
+}
+    @keyframes om
+    {
+    from
+    {
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}
+   
+/* .translate
+{
+    transform: translateX(10vh) translateY(10vh);
+    background-color: blue;
+} */

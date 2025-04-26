@@ -1,0 +1,34 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+:root
+{
+    /* --color:rgb(160, 13, 138); */
+    --kuchbhi:rgb(226, 9, 223);
+    --laal:red;
+    
+}
+.first
+{
+    background-color: blueviolet;
+    background-color: var(--kuchbhi);
+   
+}
+.second
+{
+    /* --color:green; */
+    background-color: aqua;
+    background-color: var(--color,orange);
+}
+ul li{
+    list-style:none;
+    padding: 30px;
+    border:2px solid var(--laal);
+}
+ul{
+    display: flex;
+   
+}
+

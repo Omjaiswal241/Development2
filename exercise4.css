@@ -1,0 +1,16 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    
+}
+:root
+{
+    --color:pink;
+}
+
+div{
+    padding : 20px;
+    background-color: var(--color,orange);
+    display: flex;
+}
